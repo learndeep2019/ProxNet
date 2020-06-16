@@ -1,0 +1,63 @@
+PROX_20:
+  file_path: '../data/sketch20.pk'
+  device: 'cuda'
+  resume: False
+
+  batch_size: 100
+  lr: 0.001
+  lr_decay: 200
+  epoches: 300
+  alpha: 100
+
+  num_classes: 20
+  proj_k: 20
+  calc_k: 20
+  hidden_size: 512
+
+PROX_50:
+  file_path: '../data/sketch50.pk'
+  device: 'cuda'
+  resume: False
+
+  batch_size: 100
+  lr: 0.001
+  lr_decay: 200
+  epoches: 300
+  alpha: 100
+
+  num_classes: 50
+  proj_k: 20
+  calc_k: 20
+  hidden_size: 512
+
+PROX_100:
+  file_path: '../data/sketch100.pk'
+  device: 'cuda'
+  resume: False
+
+  batch_size: 100
+  lr: 0.001
+  lr_decay: 200
+  epoches: 300
+  alpha: 100
+
+  num_classes: 100
+  proj_k: 20
+  calc_k: 20
+  hidden_size: 512
+
+PROX_125:
+  file_path: '../data/sketch125.pk'
+  device: 'cuda'
+  resume: False
+
+  batch_size: 100
+  lr: 0.001
+  lr_decay: 200
+  epoches: 300
+  alpha: 100
+
+  num_classes: 125
+  proj_k: 20
+  calc_k: 20
+  hidden_size: 512
